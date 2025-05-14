@@ -19,7 +19,7 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/25 * * * *"  # 改为每20分钟一次
+  uptime: "*/25 * * * *"  # 改为每25分钟一次
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
