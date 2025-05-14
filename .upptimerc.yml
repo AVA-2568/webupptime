@@ -4,12 +4,12 @@ repo: webupptime
 
 sites:
   - name: webhost
-    url: https://usawebs8.finalist2135.win
+    url: $SITE_WEBHOST
     __dangerous__disable_verify_peer: true
     check: "tcp-ping"
     ipv6: true
   - name: POST webhost
-    url: https://usawebs8.finalist2135.win/
+    url: $SITE_WEBHOST
     __dangerous__disable_verify_peer: true
     method: POST
     
