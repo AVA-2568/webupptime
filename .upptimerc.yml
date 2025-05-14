@@ -4,18 +4,21 @@ repo: webupptime
 
 sites:
   - name: webhost
-    url: usawebs8.finalist2135.win
-
-    port: 80
+    url: https://usawebs8.finalist2135.win
+    __dangerous__disable_verify_peer: true
     check: "tcp-ping"
     ipv6: true
-
+  - name: POST webhost
+    url: https://usawebs8.finalist2135.win/
+    __dangerous__disable_verify_peer: true
+    method: POST
+    
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
+  themeUrl: https://example.com/my-custom-theme.css
   baseUrl: /webupptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "这是使用upptime构建的开源网页状态监控页"
   introMessage: 感谢upptime项目
