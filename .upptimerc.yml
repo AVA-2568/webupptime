@@ -3,10 +3,8 @@ owner: AVA-2568
 repo: webupptime
 
 sites:
-  - name: webhost
-    url: $SITE_WEBHOST
-    __dangerous__disable_verify_peer: true
-    ipv6: true
+  - name: nz
+    url: $NZ
   - name: POST webhost
     url: $SITE_WEBHOST
     __dangerous__disable_verify_peer: true
@@ -21,7 +19,7 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/25 * * * *"  # 改为每25分钟一次
+  uptime: "1 */6 * * *"  # 每6小时1分钟运行（例如 00:01, 06:01, 12:01, 18:01）
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
