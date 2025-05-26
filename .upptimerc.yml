@@ -5,12 +5,6 @@ repo: webupptime
 sites:
   - name: nz
     url: $NZ
-  - name: POST webhost
-    url: $SITE_WEBHOST
-    __dangerous__disable_verify_peer: true
-    method: POST
-  - name: webhost1
-    url: $SITE_WEBHOST1
 
 workflowSchedule:
   graphs: "0 */4 * * *"
