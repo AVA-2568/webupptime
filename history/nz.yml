@@ -1,7 +1,7 @@
 url: $NZ
-status: up
-code: 200
-responseTime: 590
-lastUpdated: 2025-12-19T23:16:05.909Z
+status: down
+code: 403
+responseTime: 86
+lastUpdated: 2025-12-20T06:32:29.433Z
 startTime: 2025-05-16T02:59:51.925Z
 generator: Upptime <https://github.com/upptime/upptime>
