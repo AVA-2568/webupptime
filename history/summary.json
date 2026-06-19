@@ -4,17 +4,17 @@
     "url": "$NZ",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "nz",
-    "status": "up",
-    "uptime": "83.02%",
+    "status": "down",
+    "uptime": "83.03%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "81.44%",
-    "time": 554,
-    "timeDay": 591,
-    "timeWeek": 703,
-    "timeMonth": 739,
-    "timeYear": 583,
+    "time": 607,
+    "timeDay": 10106,
+    "timeWeek": 3068,
+    "timeMonth": 1329,
+    "timeYear": 642,
     "dailyMinutesDown": {
       "2025-12-05": 386,
       "2025-12-04": 1440,
@@ -85,7 +85,8 @@
       "2025-09-30": 1440,
       "2025-09-29": 1440,
       "2025-09-28": 335,
-      "2025-12-20": 369
+      "2025-12-20": 369,
+      "2026-06-19": 0
     }
   }
 ]
