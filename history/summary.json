@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "nz",
     "status": "down",
-    "uptime": "82.42%",
-    "uptimeDay": "53.61%",
-    "uptimeWeek": "53.07%",
-    "uptimeMonth": "89.20%",
-    "uptimeYear": "80.54%",
+    "uptime": "82.22%",
+    "uptimeDay": "3.34%",
+    "uptimeWeek": "39.26%",
+    "uptimeMonth": "86.02%",
+    "uptimeYear": "80.27%",
     "time": 868,
-    "timeDay": 7082,
-    "timeWeek": 10186,
+    "timeDay": 10232,
+    "timeWeek": 10194,
     "timeMonth": 3893,
-    "timeYear": 941,
+    "timeYear": 942,
     "dailyMinutesDown": {
       "2025-12-05": 386,
       "2025-12-04": 1440,
@@ -90,7 +90,9 @@
       "2026-06-20": 1440,
       "2026-06-19": 800,
       "2026-06-23": 892,
-      "2026-06-22": 414
+      "2026-06-22": 414,
+      "2026-06-25": 176,
+      "2026-06-24": 1216
     }
   }
 ]
