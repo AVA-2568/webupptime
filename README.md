@@ -1,13 +1,11 @@
 <p align="center">
   <h1 align="center">📈 webupptime</h1>
   <p align="center">
-    <strong>网站运行状态监控 & 实时状态页</strong><br>
-    基于 <a href="https://upptime.js.org">Upptime</a> · GitHub Actions 驱动 · 完全免费
+    基于 <a href="https://upptime.js.org">Upptime</a> 的网站运行状态监控 · GitHub Actions 驱动 · 完全免费
   </p>
 </p>
 
 <p align="center">
-  <a href="https://AVA-2568.github.io/webupptime"><img alt="Uptime" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fuptime.json"></a>
   <a href="https://github.com/AVA-2568/webupptime/actions/workflows/uptime.yml"><img src="https://github.com/AVA-2568/webupptime/workflows/Uptime%20CI/badge.svg" alt="Uptime CI"></a>
   <a href="https://github.com/AVA-2568/webupptime/actions/workflows/response-time.yml"><img src="https://github.com/AVA-2568/webupptime/workflows/Response%20Time%20CI/badge.svg" alt="Response Time CI"></a>
   <a href="https://github.com/AVA-2568/webupptime/actions/workflows/graphs.yml"><img src="https://github.com/AVA-2568/webupptime/workflows/Graphs%20CI/badge.svg" alt="Graphs CI"></a>
@@ -24,21 +22,6 @@
 
 ---
 
-## 🎯 这是什么？
-
-**webupptime** 是一个基于 [Upptime](https://upptime.js.org) 的网站可用性监控系统。**无需服务器、完全免费**——GitHub Actions 定时检测、Issues 自动记录故障、Pages 托管美观的实时状态页。
-
-> 每 6 小时自动探测目标站点，宕机时第一时间创建 Incident Issue，恢复正常后自动关闭。
-
-## ✨ 功能
-
-- 🔍 **定时监控** — 每 6 小时检测，HTTP/HTTPS 全支持
-- ⚡ **响应时间追踪** — 7天 / 30天 / 1年趋势图
-- 🚨 **故障自动报告** — 宕机自动创建 GitHub Issue
-- 📊 **历史存档** — 完整运行日志 + 图表
-- 📱 **响应式状态页** — 移动端友好
-- 🔓 **完全开源** — MIT 协议
-
 ## 📡 监控站点
 
 <!--start: status pages-->
@@ -50,35 +33,6 @@
 | <img alt="" src="https://icons.duckduckgo.com/ip3/null.ico" height="13"> nz | 🆗正常运行 | [nz.yml](https://github.com/AVA-2568/webupptime/commits/HEAD/history/nz.yml) | <details><summary><img alt="响应时间图像" src="./graphs/nz/response-time-week.png" height="20"> 1018毫秒</summary><br><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="响应时间 877" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fresponse-time.json"></a><br><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="24 小时响应时间 1034" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fresponse-time-day.json"></a><br><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="7 天正常运行时间 1018" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fresponse-time-week.json"></a><br><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="30天的正常运行时间 1568" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fresponse-time-month.json"></a><br><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="1年的正常运行时间 1001" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fresponse-time-year.json"></a></details> | <details><summary><a href="https://AVA-2568.github.io/webupptime/history/nz">100.00%</a></summary><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="正常运行时间 82.47%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fuptime.json"></a><br><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="24 小时正常运行时间 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fuptime-day.json"></a><br><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="7 天正常运行时间 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fuptime-week.json"></a><br><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="30天的正常运行时间 83.51%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fuptime-month.json"></a><br><a href="https://AVA-2568.github.io/webupptime/history/nz"><img alt="1年的正常运行时间 79.16%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAVA-2568%2Fwebupptime%2FHEAD%2Fapi%2Fnz%2Fuptime-year.json"></a></details> |
 
 <!--end: status pages-->
-
-## 🏗️ 技术栈
-
-| CI 任务 | 用途 | 频率 |
-|---------|------|------|
-| **Uptime CI** | 可用性探测 | 每 6 小时 |
-| **Response Time CI** | 响应时间采集 | 每天 |
-| **Graphs CI** | 趋势图表生成 | 每 4 小时 |
-| **Static Site CI** | 状态页构建部署 | 每天 |
-| **Summary CI** | 汇总报告 | 每天 |
-
-## 🚀 搭建你自己的
-
-1. **[Fork Upptime](https://github.com/upptime/upptime/fork)**
-2. 编辑 `.upptimerc.yml` 添加监控目标
-3. 启用 GitHub Pages → 选择 `gh-pages` 分支
-4. 等待 Actions 自动运行 → 完成！
-
-```yaml
-# .upptimerc.yml 配置示例
-owner: your-username
-repo: your-repo-name
-
-sites:
-  - name: Blog
-    url: https://example.com
-  - name: API
-    url: https://api.example.com/health
-```
 
 ## 📄 许可证
 
